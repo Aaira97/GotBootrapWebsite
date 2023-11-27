@@ -43,3 +43,5 @@ fetch("https://thronesapi.com/api/v2/Characters")
     cont.appendChild(rowDiv);
   })
   .catch((error) => console.error("Error fetching data:", error));
+
+
