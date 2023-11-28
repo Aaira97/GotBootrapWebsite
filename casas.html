@@ -1,60 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game of Thrones</title>
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-   <!--BARRA DE NAVEGACIÓN-->
-   <nav
-   class="navbar navbar-expand-lg bg-body-tertiary"
-   data-bs-theme="dark"
- >
-   <div class="container-fluid">
-     <img
-       src="img/logoGOT (2).png"
-       alt="Logo GOT"
-       width="150"
-       class="d-inline-block align-text-top"
-     />
-     <a class="navbar-brand" href="#">Game of Thrones </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game of Thrones</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!--BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <img
+          src="img/logoGOT (2).png"
+          alt="Logo GOT"
+          width="150"
+          class="d-inline-block align-text-top"
+        />
+        <a class="navbar-brand" href="#">Game of Thrones </a>
 
-     <button
-       class="navbar-toggler"
-       type="button"
-       data-bs-toggle="collapse"
-       data-bs-target="#navbarSupportedContent"
-       aria-controls="navbarSupportedContent"
-       aria-expanded="false"
-       aria-label="Toggle navigation"
-     >
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav ms-auto">
-         <li class ="nav-item">
-           <a class="nav-link" href="index.html">
-             Home
-           </a>
-         </li>
-         <li class="nav-item" id ="continentes">
-           <a class="nav-link " href="#"
-             >Continentes</a
-           >
-         </li>
-         <li class="nav-item" id ="casas">
-           <a class="nav-link" href="casas.html">Casas</a>
-         </li>
-       </ul>
-     </div>
-   </div>
- </nav>
-  <h1>Game of Thrones</h1>
-  <h2>Casas:</h2>
-  <script src="js/casas.script"></script>
-  <script src="js/bootstrap.bundle.js"></script>
-</body>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> Home </a>
+            </li>
+            <li class="nav-item" id="continentes">
+              <a class="nav-link" href="continente.html">Continentes</a>
+            </li>
+            <li class="nav-item" id="casas">
+              <a class="nav-link" href="casas.html">Casas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>Game of Thrones</h1>
+    <h2>Casas:</h2>
+      <div class="row mt-4">
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="img/casas/stark.PNG"
+              class="card-img-top houses-img"
+              alt="stark"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">
+              Casa Stark
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="img/casas/targaryen.PNG"
+              class="card-img-top houses-img"
+              alt="targaryen"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">
+              Casa Targaryen
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="img/casas/lannister.PNG"
+              class="card-img-top houses-img"
+              alt="lannister"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">
+              Casa Lannister
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="img/casas/baratheon.PNG"
+              class="card-img-top houses-img"
+              alt="baratheon"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">
+              Casa Baratheon
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="img/casas/martell.PNG"
+              class="card-img-top houses-img"
+              alt="martell"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">
+              Casa Martell
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="img/casas/greyjoy.PNG"
+              class="card-img-top houses-img"
+              alt="greyjoy"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">
+              Casa Greyjoy
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/casas.script"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
 </html>
